@@ -8,8 +8,8 @@ import { ModalProvider } from "@/context/modal-context"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Atir Scaffolding - Shuttering & Scaffolding Material on hire in Delhi",
-  description: "Providing quality scaffolding and shuttering materials for over 30 years",
+  title: "ABS Scaffolding Solution - Shuttering & Scaffolding Material on hire in Delhi NCR",
+  description: "Providing quality scaffolding and shuttering materials for over 5 years",
     generator: 'v0.dev'
 }
 
