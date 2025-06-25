@@ -6,32 +6,32 @@ export default function ProductsSection() {
     {
       title: "Vertical Standard",
       description: "A vertical standard regulates specific industry sectors with tailored guidelines.",
-      image: "/product-1.png",
+      image: "/product-1.webp",
     },
     {
       title: "Horizontal Ledger",
       description: "A horizontal ledger records transactions across multiple industries or sectors.",
-      image: "/product-2.png",
+      image: "/product-2.webp",
     },
     {
       title: "U Head Jack",
       description: "A U head jack supports scaffolding beams and provides height adjustment.",
-      image: "/product-3.png",
+      image: "/product-3.webp",
     },
     {
       title: "Base Jack",
       description: "A base jack provides stability and height adjustment for scaffolding structures and systems.",
-      image: "/product-4.png",
+      image: "/product-4.webp",
     },
     {
       title: "Spigot Pin",
       description: "A spigot pin connects scaffolding tubes, ensuring alignment and stability.",
-      image: "/product-5.png",
+      image: "/product-5.webp",
     },
     {
       title: "Steel Challi",
       description: "A steel challi is a durable, mesh-like reinforcement used in construction projects.",
-      image: "/product-6.png",
+      image: "/product-6.webp",
     },
   ]
 

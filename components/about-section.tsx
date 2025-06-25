@@ -18,7 +18,7 @@ export default function AboutSection() {
           <div className="md:w-1/2">
             <div className="aspect-video bg-zinc-200 rounded-lg overflow-hidden">
               <img
-                src="/contect_us.jpg"
+                src="/contect_us.webp"
                 alt="Scaffolding equipment"
                 className="w-full h-full object-cover"
               />

@@ -30,7 +30,7 @@ export default function ProductsPage() {
 
         "Standards that apply to a particular industry or to particular operations, practices, conditions, processes, means, methods, equipment or installations. Horizontal Standards – Other (more general) standards applicable to multiple industries"
       ],
-      image: "/product-1.png",
+      image: "/product-1.webp",
     },
     {
       title: "Horizontal Ledger",
@@ -40,7 +40,7 @@ export default function ProductsPage() {
 
         "Banking on the skills of an experienced team of professionals, we have been remarkable in offering a wide array of Horizontal Ledger. Offered horizontal ledgers are available in different sizes to meet maximum customer varied requirements and demands effectively. In addition to this, customer can avail these horizontal ledgers from us at reasonable rates."
       ],
-      image: "/product-2.png",
+      image: "/product-2.webp",
     },
     {
       title: "U Head Jack",
@@ -50,7 +50,7 @@ export default function ProductsPage() {
 
         "Adjustable U Head available with us are widely used during building construction work providing end to end connection to scaffolding structure. These U Head are made using finest quality raw material and hence very strong and durable."
       ],
-      image: "/product-3.png",
+      image: "/product-3.webp",
     },
     {
       title: "Base Jack",
@@ -60,7 +60,7 @@ export default function ProductsPage() {
 
         "Image result for base jack in scaffolding Product Detail. Scaffolding base jack which is the necessary parts in every scaffolding system to adjust the scaffold level whenever the floor base not flat, special-shaped, etc, which provide a good solution for a construction project, bridge, tunnel, civil building, etc."
       ],
-      image: "/product-4.png",
+      image: "/product-4.webp",
     },
     {
       title: "Spigot Pin",
@@ -70,7 +70,7 @@ export default function ProductsPage() {
 
         "We are an acclaimed name engaged in offering our precious clients a superior quality range of Joint Pin. Our offered pins are manufactured at our advanced manufacturing unit under the supervision of highly skilled and experienced professionals."
       ],
-      image: "/product-5.png",
+      image: "/product-5.webp",
     },
     {
       title: "Steel Challi",
@@ -80,7 +80,7 @@ export default function ProductsPage() {
 
         "Steel Challi Precisely manufactured by our highly skilled professionals using quality approved raw material and latest technology, this Challi is available in various specifications as per the requirements of clients. Also, this Challi is checked on several quality parameters to ensure their flawless finish."
       ],
-      image: "/product-6.png",
+      image: "/product-6.webp",
     },
     {
       title: "Shuttering Plates",
@@ -94,7 +94,7 @@ export default function ProductsPage() {
 
         "We provide sturdy and reliable MS shuttering plates on rent for builders and contractors. Our plates are ideal for slab work, column formwork, and other reinforced concrete structures. Whether your project is large-scale or residential, renting these plates helps you maintain structural accuracy without investing in permanent inventory."
       ],
-      image: "/product-7.png",
+      image: "/product-7.webp",
     },
     {
       title: "Span",
@@ -104,7 +104,7 @@ export default function ProductsPage() {
 
         "Span is the amount of area or the amount of time that something encompasses. An example of span is how long you live. An example of span is a house on three acres. A team of two animals used together."
       ],
-      image: "/product-8.png",
+      image: "/product-8.webp",
     },
     {
       title: "Adjustable Telescopic Props",
@@ -114,7 +114,7 @@ export default function ProductsPage() {
 
         "Commonly used in slab formwork to support concrete molds until the concrete hardens and can bear its own weight."
       ],
-      image: "/product-9.png",
+      image: "/product-9.webp",
     },
     {
       title: "Cuplock System",
@@ -124,7 +124,7 @@ export default function ProductsPage() {
 
         "Widely used in construction projects for scaffolding, it supports workers and materials at various heights. It's particularly effective for building façades, bridges, and other complex structures."
       ],
-      image: "/product-10.png",
+      image: "/product-10.webp",
     },
   ]
 
@@ -137,8 +137,8 @@ export default function ProductsPage() {
       {/* Banner */}
       <div className="relative bg-zinc-800">
         <div
-          className="absolute top-0 left-0 w-full h-[400px] bg-cover bg-center z-0"
-          style={{ backgroundImage: "url('/product_bannar.jpg')" }}
+          className="absolute top-0 left-0 w-full h-[450px] bg-cover bg-center z-0"
+          style={{ backgroundImage: "url('/product_bannar.webp')" }}
         />
         <div className="relative h-[400px] flex items-center justify-center z-10">
           <div className="container mx-auto px-4">

@@ -31,7 +31,7 @@ export default function Experience() {
         {/* Image + Counter */}
         <div className="relative border-2 border-dashed border-yellow-400 p-2 max-w-md w-full">
           <Image
-            src="/gallery-4.jpg"
+            src="/gallery-4.webp"
             alt="Scaffolding Construction"
             width={800}
             height={400}
@@ -62,7 +62,7 @@ export default function Experience() {
           </p>
 
           <p className="bg-yellow-400/30 p-4 rounded-md text-gray-800 leading-relaxed">
-            With over <strong>5 years </strong>of hands-on experience, Amirsons has built a solid reputation for reliable, professional service in the construction sector. Whether it’s a small project or a large-scale build, we’re here to support your vision every step of the way.
+            With over <strong>5 years </strong>of hands-on experience, ABS Scaffolding Solution has built a solid reputation for reliable, professional service in the construction sector. Whether it’s a small project or a large-scale build, we’re here to support your vision every step of the way.
           </p>
         </div>
       </div>

@@ -51,7 +51,7 @@ export default function Logo() {
     <Link href="/" className="flex items-center space-x-3 h-20">
       <div className="relative w-[80px] h-[80px] bg-white rounded-full p-2 shadow-md"> {/* 🎯 Background color here */}
         <Image
-          src="/abs_logo2-removebg-preview.png"
+          src="/abs_logo2-removebg-preview.webp"
           alt="ABS Logo"
           fill
           className="object-contain"

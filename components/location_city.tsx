@@ -11,10 +11,10 @@ const cities = [
 ]
 
 const images = [
-  "/gallery-4.jpg",
-  "/gallery-1.jpg",
-  "/gallery-7.jpg",
-  "/gallery-9.jpg"
+  "/gallery-4.webp",
+  "/gallery-1.webp",
+  "/gallery-7.webp",
+  "/gallery-9.webp"
 ]
 
 export default function ScaffoldingProjects() {

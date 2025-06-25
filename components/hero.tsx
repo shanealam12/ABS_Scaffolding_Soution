@@ -9,10 +9,13 @@ export default function Hero() {
         loop
         muted
         playsInline
-        className="absolute inset-0 w-full h-full object-cover"
+        preload="auto"
+        className="absolute inset-0 w-full h-full object-cover op-[50px]"
       >
-        <source src="/home_bannar.mp4" type="video/mp4" />
+        <source src="/home_bannar2.webm" type="video/webm" />
+        Your browser does not support the video tag.
       </video>
+
 
       {/* Dark Overlay for Contrast */}
       <div className="absolute inset-0 bg-black/50" />
@@ -24,10 +27,12 @@ export default function Hero() {
           SCAFFOLDING SOLUTIONS
         </h2>
         <p className="mt-10 max-w-xl text-white text-base sm:text-lg md:text-xl drop-shadow-lg">
-          Having achieved a respectable place in the construction industry through unmatched services for over 5 years, ABS Scaffolding Solution continues to set the standard for quality and reliability.
+          Having achieved a respectable place in the construction industry through unmatched services for over 5 years.<br />
+          ABS Scaffolding Solution continues to set the standard for quality and reliability.
         </p>
+
         <button className="mt-10 px-6 py-3 bg-amber-400 hover:bg-amber-500 text-black font-semibold rounded-lg shadow-lg transition"
-                onClick={() => window.location.href = '/contact'}>
+          onClick={() => window.location.href = '/contact'}>
           Get In Touch
         </button>
       </div>

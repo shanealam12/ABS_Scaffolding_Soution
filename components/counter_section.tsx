@@ -27,7 +27,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen">
-      <section className="bg-[url('/bannar.png')] bg-cover bg-center py-16">
+      <section className="bg-[url('/bannar.webp')] bg-cover bg-center py-16">
         <div className="bg-black/60 py-16" ref={ref}>
           <div className="container mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center text-white">
             {stats.map((item, index) => (

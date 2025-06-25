@@ -13,9 +13,9 @@ export default function ContactPage() {
       <Header />
 
       {/* Top Banner Image */}
-      <div className="relative w-full h-72 md:h-[400px]">
+      <div className="relative w-full h-72 md:h-[450px]">
         <Image
-          src="/about.jpg" // ⬅️ Apna image path yahaan change karein
+          src="/contect_us.webp" // ⬅️ Apna image path yahaan change karein
           alt="Contact Banner"
           layout="fill"
           objectFit="cover"

@@ -4,47 +4,47 @@ import Image from "next/image"
 export default function GalleryPage() {
   const galleryImages = [
     {
-      src: "/gallery-1.jpg",
+      src: "/gallery-1.webp",
       // alt: "Construction site with scaffolding",
       // title: "Commercial Building Project",
     },
     {
-      src: "/gallery-2.jpg",
+      src: "/gallery-2.webp",
       // alt: "High-rise building construction",
       // title: "High-rise Residential Complex",
     },
     {
-      src: "/gallery-3.jpg",
+      src: "/gallery-3.webp",
       // alt: "Bridge construction with scaffolding",
       // title: "Infrastructure Project",
     },
     {
-      src: "/gallery-4.jpg",
+      src: "/gallery-4.webp",
       // alt: "Interior scaffolding setup",
       // title: "Interior Renovation",
     },
     {
-      src: "/gallery-5.jpg",
+      src: "/gallery-5.webp",
       // alt: "Scaffolding for historical building restoration",
       // title: "Heritage Building Restoration",
     },
     {
-      src: "/gallery-6.jpg",
+      src: "/gallery-6.webp",
       // alt: "Industrial scaffolding setup",
       // title: "Industrial Project",
     },
     {
-      src: "/gallery-7.jpg",
+      src: "/gallery-7.webp",
       // alt: "Stadium construction scaffolding",
       // title: "Sports Complex Construction",
     },
     {
-      src: "/gallery-8.jpg",
+      src: "/gallery-8.webp",
       // alt: "Shopping mall construction",
       // title: "Commercial Center Development",
     },
     {
-      src: "/gallery-9.jpg",
+      src: "/gallery-9.webp",
       // alt: "Hospital building construction",
       // title: "Healthcare Facility Project",
     },
@@ -54,9 +54,9 @@ export default function GalleryPage() {
     <main className="min-h-screen">
       <Header />
         {/* Top Banner Image */}
-        <div className="relative w-full h-72 md:h-[500px]">
+        <div className="relative w-full h-72 md:h-[450px]">
           <Image
-            src="/gallery_bannar.jpg" // ⬅️ Apna image path yahaan change karein
+            src="/gallery_bannar.webp" // ⬅️ Apna image path yahaan change karein
             alt="Contact Banner"
             layout="fill"
             objectFit="cover"

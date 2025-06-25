@@ -6,9 +6,9 @@ export default function AboutPage() {
     <main className="min-h-screen">
       <Header />
       {/* Top Banner Image */}
-      <div className="relative w-full h-72 md:h-[400px]">
+      <div className="relative w-full h-72 md:h-[450px]">
         <Image
-          src="/contect_us.jpg" // ⬅️ Apna image path yahaan change karein
+          src="/about.webp" // ⬅️ Apna image path yahaan change karein
           alt="Contact Banner"
           layout="fill"
           objectFit="cover"
@@ -40,7 +40,7 @@ export default function AboutPage() {
             </div>
             <div className="md:w-1/2">
               <div className="aspect-video bg-zinc-200 rounded-lg overflow-hidden">
-                <img src="/gallery-1.jpg" alt="Company history" className="w-full h-full object-cover" />
+                <img src="/gallery-1.webp" alt="Company history" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>
@@ -54,42 +54,44 @@ export default function AboutPage() {
             {/* Chairman */}
             <div className="bg-zinc-100 p-6 rounded-lg shadow-md text-center">
               <img
-                src="/mo_ashir1.jpg"
+                src="/mo_ashir1.webp"
                 alt="Chairman Mohd Ashir"
                 className="w-40 h-40 object-cover mx-auto rounded-full mb-4"
               />
               <h3 className="text-xl font-bold text-zinc-800 mb-1">Mohd Ashir</h3>
               <p className="text-sm font-semibold text-zinc-500 mb-4">Chairman</p>
               <p className="text-zinc-700 text-sm">
-                Mr. Khosla brings deep expertise in scaffolding and construction with a vision to build a strong foundation for the future. He has played a key role in many landmark development projects across the region.
+                Mohd Ashir brings deep expertise in setting the organization's strategic direction, overseeing management, providing guidance, and verifying compliance with regulatory requirements.
+
               </p>
             </div>
 
             {/* Director 1 */}
             <div className="bg-zinc-100 p-6 rounded-lg shadow-md text-center">
               <img
-                src="/shamshad.jpg"  // Replace with actual path
+                src="/shamshad2.webp"  // Replace with actual path
                 alt="Director Name"
                 className="w-40 h-40 object-cover mx-auto rounded-full mb-4"
               />
               <h3 className="text-xl font-bold text-zinc-800 mb-1">Shamshad Ali</h3>
-              <p className="text-sm font-semibold text-zinc-500 mb-4">Director</p>
+              <p className="text-sm font-semibold text-zinc-500 mb-4">Chairman</p>
               <p className="text-zinc-700 text-sm">
-                Rajeev oversees operational strategy, ensuring that all client projects are delivered efficiently and safely. He has a hands-on approach and decades of experience in field operations.
+                Provide strategic guidance through participation in strategic planning, verifying that the organization's goals and objectives are aligned with its mission and vision.
               </p>
             </div>
 
             {/* Director 2 */}
             <div className="bg-zinc-100 p-6 rounded-lg shadow-md text-center">
               <img
-                src="/owner-3.jpg"  // Replace with actual path
+                src="/babbu.webp"  // Replace with actual path
                 alt="Director Name"
                 className="w-40 h-40 object-cover mx-auto rounded-full mb-4"
               />
               <h3 className="text-xl font-bold text-zinc-800 mb-1">Babbu Khan</h3>
-              <p className="text-sm font-semibold text-zinc-500 mb-4">Co-Founder</p>
+              <p className="text-sm font-semibold text-zinc-500 mb-4">Chairman</p>
               <p className="text-zinc-700 text-sm">
-                Sunil leads innovation and business growth, focusing on bringing modern techniques and technology to improve customer experience and service quality across projects.
+                Babbu Khan oversees operational strategy, ensuring that all client projects are delivered efficiently and safely. He has a hands-on approach and decades of experience in field of scaffolding and construction.
+
               </p>
             </div>
           </div>
