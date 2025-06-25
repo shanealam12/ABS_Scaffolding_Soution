@@ -15,10 +15,12 @@ export default function ContactPage() {
       {/* Top Banner Image */}
       <div className="relative w-full h-72 md:h-[450px]">
         <Image
-          src="/contect_us.webp" // ⬅️ Apna image path yahaan change karein
+          src="/contect_us.webp"
           alt="Contact Banner"
           layout="fill"
           objectFit="cover"
+          priority         
+          loading="eager"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
@@ -109,18 +111,18 @@ export default function ContactPage() {
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold text-center mb-8 text-zinc-800">Our Location</h2>
           <div className="w-full h-[450px] rounded-lg overflow-hidden shadow-lg">
-                  <iframe
-                    src="https://www.google.com/maps?q=28.550722,77.437460&hl=es;z=14&output=embed"
-                    width="100%"
-                    height="100%"
-                    style={{ border: 0 }}
-                    allowFullScreen
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                  />
-                </div>
-              </div>
-            </section>
+            <iframe
+              src="https://www.google.com/maps?q=28.550722,77.437460&hl=es;z=14&output=embed"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+        </div>
+      </section>
       {/* Enquiry Form */}
       <section className="py-16 bg-zinc-50">
         <div className="container mx-auto px-4 max-w-4xl">

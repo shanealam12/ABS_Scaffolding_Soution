@@ -8,15 +8,18 @@ export default function AboutPage() {
       {/* Top Banner Image */}
       <div className="relative w-full h-72 md:h-[450px]">
         <Image
-          src="/about.webp" // ⬅️ Apna image path yahaan change karein
+          src="/about.webp"
           alt="Contact Banner"
           layout="fill"
           objectFit="cover"
+          priority         
+          loading="eager"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
           <h1 className="text-white text-4xl md:text-5xl font-bold">About Us</h1>
         </div>
+
       </div>
       <section className="py-16 px-4 bg-white">
         <div className="container mx-auto">

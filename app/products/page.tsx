@@ -5,7 +5,7 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 import { Button } from "@/components/ui/button"
 import { useModal } from "@/context/modal-context"
-
+import Image from "next/image"
 export default function ProductsPage() {
   const { openEnquiryModal } = useModal()
   const [selectedProductIndex, setSelectedProductIndex] = useState<number | null>(null)
@@ -135,7 +135,21 @@ export default function ProductsPage() {
       <Header />
 
       {/* Banner */}
-      <div className="relative bg-zinc-800">
+      <div className="relative w-full h-72 md:h-[450px]">
+        <Image
+          src="/product_bannar.webp"
+          alt="Contact Banner"
+          layout="fill"
+          objectFit="cover"
+          priority         
+          loading="eager"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+          <h1 className="text-white text-4xl md:text-5xl font-bold">Our Products</h1>
+        </div>
+      </div>
+      {/* <div className="relative bg-zinc-800">
         <div
           className="absolute top-0 left-0 w-full h-[450px] bg-cover bg-center z-0"
           style={{ backgroundImage: "url('/product_bannar.webp')" }}
@@ -145,7 +159,7 @@ export default function ProductsPage() {
             <h1 className="text-4xl font-bold text-white text-center">Our Products</h1>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Content Section */}
       <section className="py-16 px-4 bg-white">
